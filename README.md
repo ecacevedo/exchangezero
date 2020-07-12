@@ -95,17 +95,11 @@ Have a working app with all MVP requirements.
 
 ### Client (Front End)
 
-#### Wireframes
+#### Wireframes / Component Tree
 
-> Use the Wireframes section to display desktop, tablet and mobile views. No hand-drawn wireframes. Use a tool like wireframe.cc, Whimsical or AdobeXD
-
-![https://whimsical.com/RzcHP8eKTseHtNBgqHHRE3]
+https://whimsical.com/RzcHP8eKTseHtNBgqHHRE3
 
 
-
-#### Component Tree
-
-> Use this section to display the structure of how your React components are being rendered. This should show the parent to child relation between you components. In other words, show which components are rendering the other components. 
 
 #### Component Hierarchy
 
@@ -121,7 +115,13 @@ src
       |__ mockups
 |__ components/
       |__ Header.jsx
+      |__ Footer.jsx
+      |__ Signup.jsx
+      |__ Listings.jsx
 |__ services/
+      |__ apiconfig.jsx
+      |__ apihelper.jsx
+      
 
 ```
 
@@ -132,10 +132,10 @@ src
 |  Component   |    Type    | state | props | Description                                                      |
 | :----------: | :--------: | :---: | :---: | :--------------------------------------------------------------- |
 |    Header    | functional |   n   |   n   | _The header will contain the navigation and logo._               |
-|  Navigation  | functional |   n   |   n   | _The navigation will provide a link to each of the pages._       |
-|   Gallery    |   class    |   y   |   n   | _The gallery will render the posts using cards in flexbox._      |
-| Gallery Card | functional |   n   |   y   | _The cards will render the post info via props._                 |
-|    Footer    | functional |   n   |   n   | _The footer will show info about me and a link to my portfolio._ |
+| Footer  | functional |   n   |   n   | _The navigation will provide a link to each of the pages._       |
+|   Signup    |   class    |   y   |   n   | _The gallery will render the posts using cards in flexbox._      |
+| Listings | functional |   n   |   y   | _The cards will render the post info via props._                 |
+
 
 #### Time Estimates
 
@@ -143,11 +143,19 @@ src
 
 | Task                | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
-| Add Contact Form    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
-| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| TOTAL               |          |     6 hrs      |     3 hrs     |     TBD     |
+| Make Readme with Wireframes & ERD  |    L     |     3 hrs      |     0 hrs     |    0 hrs   |
+| Ruby on Rails Models  |    L     |     3 hrs      |     0 hrs     |    0 hrs   |
+| Ruby on Auth |    L     |     3 hrs      |     0 hrs     |    0 hrs|
+| Ruby on Rails Controllers |    L     |     3 hrs      |    0 hrs     |    0 hrs   |
+| Troubleshooting Ruby on Rails Backend |    L     |     3 hrs      |     0 hrs    |    0 hrs   |
+| Create CRUD Actions |    H     |     3 hrs      |     0 hrs     |     0 hrs    |
+| Create React Components|    H     |     6 hrs      |    0 hrs    |     0 hrs    |
+| Style with Flexbox / make responsive |     H     |     6 hrs    |     0 hrs     |     0 hrs     |
+| Services / Api Calls|    H     |     3 hrs      |     0 hrs   |     0 hrs     |
+| General Troubleshooting |    H     |     10 hrs      |     0 hrs    |     0 hrs    |
+| TOTAL               |          |     43 hrs      |     0 hrs    |     0 hrs   |
 
-> _Why is this necessary? Time frames are key to the development cycle. You have limited time to code your app, and your estimates can then be used to evaluate possibilities of your MVP and post-MVP based on time needed. It's best you assume an additional hour for each component, as well as a few hours added to the total time, to play it safe._
+
 
 <br>
 
@@ -155,7 +163,9 @@ src
 
 #### ERD Model
 
-> Use this section to display an image of a computer generated ERD model. You can use draw.io, Lucidchart or another ERD tool.
+
+
+https://app.diagrams.net/#G14Wgm3RFggvZ-wyzG8_NlKqJCmuboDPTb
 
 <br>
 
