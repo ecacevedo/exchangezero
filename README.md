@@ -52,9 +52,9 @@ Exchange Zero is a full stack app which for users to trade and give away unwante
 
 
 ###### Styling
-*Be styled with CSS 
-*Use Flexbox 
-Implement 2 media queries for responsive design on 3 screen sizes (including desktop).
+- [ ] Be styled with CSS 
+- [ ] Use Flexbox 
+- [ ] Implement 2 media queries for responsive design on 3 screen sizes (including desktop).
 
 ###### Linting
 *Indent properly.
