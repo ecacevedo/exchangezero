@@ -24,26 +24,59 @@
 
 ## Overview
 
-_**Project Title** is lorem ipsum dolor sit amet. Phasellus dapibus fermentum risus vitae bibendum. Integer vel ipsum mollis odio sollicitudin ornare eu vel ex. In quis fringilla velit, ac maximus quam. Etiam eget placerat neque. Aenean faucibus sem non nisi lobortis ullamcorper._
+Exchange Zero is a full stack app which for users to trade and give away unwanted items with the goal of reducing waste and consumption. 
 
 
 <br>
 
 ## MVP
 
-> The Minimum Viable Product should be a well-planned, easily-communicated product, ensuring that the client's deliverable will be achievable and meet specifications within the time frame estimated.
+###### Server (Back End)
+*Have a RESTful JSON API.
+*Build a Ruby on Rails server, exposing RESTful JSON endpoints.
+*Build a database with at least 3 tables:
+*There must be at least 1 association between your tables. (1:m or m:m)
+*Utilize Rails to define models for interacting with the database.
+*Implement working generic controller actions for Full CRUD (index, show, create, update, delete) between your non-User tables
 
-_The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus fermentum risus vitae bibendum. Integer vel ipsum mollis odio sollicitudin ornare eu vel ex. In quis fringilla velit, ac maximus quam. Etiam eget placerat neque. Aenean faucibus sem non nisi lobortis ullamcorper._
+
+###### Client (Front End)
+*Have a working, interactive React app, built using npx create-react-app.
+*Have at least 8 separate, rendered components in an organized and understandable React file structure.
+*Utilize functional and class React components appropriately.
+*Utilize state and props in your components efficiently.
+*Use only React for DOM Manipulation.
+*Consume data from your Ruby on Rails API, and render that data in your components.
+*Utilize React Router, for client-side routing.
+*Demonstrate Full CRUD actions ( index, show, create, update, and delete ) on the front end.
+
+
+###### Styling
+*Be styled with CSS 
+*Use Flexbox 
+Implement 2 media queries for responsive design on 3 screen sizes (including desktop).
+
+###### Linting
+*Indent properly.
+*Utilize high-quality, semantic variable names.
+*Follow camelCase, snake_case, and kebab-case convention.
+*Remove unnecessary boilerplate React files and code.
+*Remove all console.log()s and commented out code (functional notes and comments are okay).
+
+###### Deployment
+*Deploy the fully functional front-end via Surge or Netlify.
+*Deploy the back-end via Heroku.
+
+###### Procedural
+*Initialize a git repo on Github, with a link to your hosted project.
+*Have frequent commits, making a robust commit history at least every day. (75 commits minimum)
+*Use effective and safe branching and merging processes.
 
 <br>
 
 ### Goals
 
-- _Lorem ipsum, dolor sit amet,_
-- _consectetur adipiscing elit._
-- _Phasellus dapibus fermentum risus vitae bibendum._
-- _Integer vel ipsum mollis odio sollicitudin ornare eu vel ex._
-- _etc._
+Have a working app with all MVP requirements.
 
 <br>
 
@@ -53,11 +86,11 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 
 |     Library      | Description                                |
 | :--------------: | :----------------------------------------- |
-|      React       | _Lorem ipsum dolor sit amet, consectetur._ |
-|   React Router   | _Lorem ipsum dolor sit amet, consectetur._ |
-| React SemanticUI | _Lorem ipsum dolor sit amet, consectetur._ |
-|     Express      | _Lorem ipsum dolor sit amet, consectetur._ |
-|  Express Router  | _Lorem ipsum dolor sit amet, consectetur._ |
+|      React       | Front End |
+|   React Router   | For routes|
+| Axios| For API calls|
+|     Ruby on Rails      | For Backend|
+|  Material UI  | Styling elements for front end|
 
 <br>
 
