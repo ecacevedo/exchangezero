@@ -187,6 +187,7 @@ https://app.diagrams.net/#G14Wgm3RFggvZ-wyzG8_NlKqJCmuboDPTb
 - [ ] Add blogging
 - [ ] Add Resources for zero waste ideas
 - [ ] Dark Mode
+- [ ] Add Categories to ERD
 
 ***
 
