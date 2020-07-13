@@ -22,7 +22,7 @@
 
 ## Overview
 
-Exchange Zero is a full stack app which for users to trade and give away unwanted items with the goal of reducing waste and consumption. 
+Exchange Zero is a full stack app which for users to trade and give away unwanted items with the goal of reducing waste and consumption. The base functionality is simply to add and delete items from a common "Marketplace". Post MVP features include messaging and blogging.
 
 
 <br>
@@ -80,7 +80,6 @@ Have a working app with all MVP requirements.
 
 ### Libraries and Dependencies
 
-> Use this section to list all supporting libraries and dependencies, and their role in the project. Below is an example - this needs to be replaced!
 
 |     Library      | Description                                |
 | :--------------: | :----------------------------------------- |
@@ -106,7 +105,6 @@ https://app.diagrams.net/#G1c-0pVtJ29pITZS3tV7P-f7HPN3PruQPA
 
 #### Component Hierarchy
 
-> Use this section to define your React components and the data architecture of your app. This should be a reflection of how you expect your directory/file tree to look like. 
 
 ``` structure
 
@@ -130,7 +128,7 @@ src
 
 #### Component Breakdown
 
-> Use this section to go into further depth regarding your components, including breaking down the components as stateless or stateful, and considering the passing of data between those components.
+
 
 |  Component   |    Type    | state | props | Description                                                      |
 | :----------: | :--------: | :---: | :---: | :--------------------------------------------------------------- |
@@ -142,7 +140,7 @@ src
 
 #### Time Estimates
 
-> Use this section to estimate the time necessary to build out each of the components you've described above.
+
 
 | Task                | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
