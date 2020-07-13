@@ -27,7 +27,7 @@ Exchange Zero is a full stack app which for users to trade and give away unwante
 
 <br>
 
-## MVP
+## Checklist (put in first person)
 
 ###### Server (Back End)
 - [ ] Have a RESTful JSON API.
@@ -69,6 +69,12 @@ Exchange Zero is a full stack app which for users to trade and give away unwante
 - [ ] Initialize a git repo on Github, with a link to your hosted project.
 - [ ] Have frequent commits, making a robust commit history at least every day. (75 commits minimum)
 - [ ] Use effective and safe branching and merging processes.
+
+<br>
+
+### MVP
+
+User can add pictures posts etc...
 
 <br>
 
