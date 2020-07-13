@@ -74,7 +74,11 @@ Exchange Zero is a full stack app which for users to trade and give away unwante
 
 ### MVP
 
-User can add pictures posts etc...
+- [ ]User can sign in
+- [ ]User can create account
+- [ ]User can create/edit/delete Items
+- [ ]User can view marketplace
+
 
 <br>
 
@@ -180,6 +184,7 @@ https://app.diagrams.net/#G14Wgm3RFggvZ-wyzG8_NlKqJCmuboDPTb
 
 ## Post-MVP
 
+- [ ] User can click Item in Marketplace and go to seperate page
 - [ ] Allow messaging between users
 - [ ] Implement Authorization
 - [ ] Use Material UI
@@ -188,6 +193,8 @@ https://app.diagrams.net/#G14Wgm3RFggvZ-wyzG8_NlKqJCmuboDPTb
 - [ ] Add Resources for zero waste ideas
 - [ ] Dark Mode
 - [ ] Add Categories to ERD
+
+
 
 ***
 
