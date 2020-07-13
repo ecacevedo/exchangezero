@@ -93,9 +93,14 @@ Have a working app with all MVP requirements.
 
 ### Client (Front End)
 
-#### Wireframes / Component Tree
+#### Wireframes
 
 https://whimsical.com/RzcHP8eKTseHtNBgqHHRE3
+
+
+#### Component Tree
+
+https://app.diagrams.net/#G1c-0pVtJ29pITZS3tV7P-f7HPN3PruQPA
 
 
 
