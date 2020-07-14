@@ -31,10 +31,10 @@ Exchange Zero is a full stack app which for users to trade and give away unwante
 
 ###### Server (Back End)
 - [ ] Have a RESTful JSON API.
-- [ ] Build a Ruby on Rails server, exposing RESTful JSON endpoints.
-- [ ] Build a database with at least 3 tables:
-- [ ] There must be at least 1 association between your tables. (1:m or m:m)
-- [ ] Utilize Rails to define models for interacting with the database.
+- [x] Build a Ruby on Rails server, exposing RESTful JSON endpoints.
+- [x] Build a database with at least 3 tables:
+- [x] There must be at least 1 association between your tables. (1:m or m:m)
+- [x] Utilize Rails to define models for interacting with the database.
 - [ ] Implement working generic controller actions for Full CRUD (index, show, create, update, delete) between your non-User tables
  
 
