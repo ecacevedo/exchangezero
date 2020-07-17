@@ -30,20 +30,20 @@ Exchange Zero is a full stack app which for users to trade and give away unwante
 ## Checklist (put in first person)
 
 ###### Server (Back End)
-- [ ] Have a RESTful JSON API.
+- [x] Have a RESTful JSON API.
 - [x] Build a Ruby on Rails server, exposing RESTful JSON endpoints.
 - [x] Build a database with at least 3 tables:
 - [x] There must be at least 1 association between your tables. (1:m or m:m)
 - [x] Utilize Rails to define models for interacting with the database.
-- [ ] Implement working generic controller actions for Full CRUD (index, show, create, update, delete) between your non-User tables
+- [x] Implement working generic controller actions for Full CRUD (index, show, create, update, delete) between your non-User tables
  
 
 ###### Client (Front End)
 - [ ] Have a working, interactive React app, built using npx create-react-app.
 - [ ] Have at least 8 separate, rendered components in an organized and understandable React file structure.
-- [ ] Utilize functional and class React components appropriately.
-- [ ] Utilize state and props in your components efficiently.
-- [ ] Use only React for DOM Manipulation.
+- [x] Utilize functional and class React components appropriately.
+- [x] Utilize state and props in your components efficiently.
+- [x] Use only React for DOM Manipulation.
 - [ ] Consume data from your Ruby on Rails API, and render that data in your components.
 - [ ] Utilize React Router, for client-side routing.
 - [ ] Demonstrate Full CRUD actions ( index, show, create, update, and delete ) on the front end.
@@ -74,8 +74,8 @@ Exchange Zero is a full stack app which for users to trade and give away unwante
 
 ### MVP
 
-- [ ]User can sign in
-- [ ]User can create account
+- [x]User can sign in
+- [x]User can create account
 - [ ]User can create/edit/delete Items
 - [ ]User can view marketplace
 
